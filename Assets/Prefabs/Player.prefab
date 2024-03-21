@@ -875,7 +875,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &8692696755638623750
 Transform:
   m_ObjectHideFlags: 0
@@ -1626,7 +1626,6 @@ GameObject:
   - component: {fileID: 7604435380580176717}
   - component: {fileID: 644147568562912461}
   - component: {fileID: 6174654440547555391}
-  - component: {fileID: 3942161492303128520}
   - component: {fileID: 7054535605698509253}
   m_Layer: 0
   m_Name: Player
@@ -1745,18 +1744,6 @@ MonoBehaviour:
   SpawnWithObservers: 1
   DontDestroyWithOwner: 0
   AutoObjectParentSync: 1
---- !u!114 &3942161492303128520
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7871935000971927948}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a58d7fcd870c6a468c3da71bb9235b2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &7054535605698509253
 MonoBehaviour:
   m_ObjectHideFlags: 0
